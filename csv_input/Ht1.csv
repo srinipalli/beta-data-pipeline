@@ -1,0 +1,8 @@
+bug_id,triage,module,title,description,severity,status,category,reported_date,assigned_to,assigned_date
+DEF-0001,High,Authentication,Login Issue,User unable to log in with correct credentials,High,Open,Authentication,2023-10-01,John Doe,2023-10-02
+DEF-0002,Medium,Payment,Payment Failure,Payment gateway not responding during checkout,Medium,Open,Payment,2023-10-03,Jane Smith,2023-10-04
+DEF-0003,Critical,UI,Button Not Working,Submit button on the form is unresponsive,Low,Closed,UI,2023-10-05,John Doe,2023-10-06
+DEF-0004,L2,Database,Data Sync Issue,Data not syncing between servers,High,Open,Database,2023-10-07,Jane Smith,2023-10-08
+DEF-0005,,Authentication,Password Reset,User unable to reset password via email link,Medium,Closed,Authentication,2023-10-09,John Doe,2023-10-10
+DEF-0007,Critical,Authentication,Login Issue,User password is not working if there is an uppercase character in the end followed by a comma,High,Open,Authentication,2023-10-01,Jane Doe,2023-10-02
+DEF-0068,Planning,Backend,LLM issue,LLM is too slow and authentication is very difficult to rectify and laptop is not working,Critical,Open,Backend,2023-10-01,Var Chicken,2023-10-02
