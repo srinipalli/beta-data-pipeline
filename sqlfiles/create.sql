@@ -11,7 +11,8 @@ CREATE TABLE IF NOT EXISTS stage1 (
     category TEXT,
     reported_date DATE,
     assigned_to TEXT,
-    assigned_date DATE
+    assigned_date DATE,
+    sourcename TEXT
 );
 
 CREATE TABLE IF NOT EXISTS stage2 (
@@ -25,9 +26,24 @@ CREATE TABLE IF NOT EXISTS stage2 (
     category TEXT,
     reported_date DATE,
     assigned_to TEXT,
-    assigned_date DATE
+    assigned_date DATE,
+    source_name TEXT
 );
 
+CREATE TABLE IF NOT EXISTS stage3 (
+    ticketid INT PRIMARY KEY,
+    triage_level TEXT,
+    modulename TEXT,
+    bug_title TEXT,
+    bug_desc TEXT,
+    priority TEXT,
+    status TEXT,
+    category TEXT,
+    datereported DATE,
+    assignee TEXT,
+    assignee_date DATE,
+    src TEXT
+);
 
 CREATE TABLE IF NOT EXISTS main_table (
     ticket_id VARCHAR(20) PRIMARY KEY,
@@ -40,15 +56,6 @@ CREATE TABLE IF NOT EXISTS main_table (
     category TEXT,
     reported_date DATE,
     assigned_to TEXT,
-    assigned_date DATE
-);
-
-CREATE TABLE IF NOT EXISTS testprocessed(
-    ticket_id VARCHAR(20) PRIMARY KEY,
-    summary TEXT,
-    priority TEXT,
-    category TEXT,
-    sub_category TEXT,
-    assigned_to TEXT,
-    reason TEXT
+    assigned_date DATE,
+    source TEXT
 );

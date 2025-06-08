@@ -1,0 +1,7 @@
+bug_id,triage,module,title,description,severity,status,category,reported_date,assigned_to,assigned_date,source_name
+BUG-2001,High,Authentication,OAuth token not refreshing,"Access tokens are not getting refreshed automatically after expiry, causing user logouts.",L1,Open,Security,2023-10-01,Liam Carter,2023-10-02,B
+BUG-2002,Medium,Search,Filter results ignore date range,"When users select a date filter in search, results still include entries outside the range.",L2,In Progress,Search,2023-09-18,Nina Kapoor,2023-09-19,B
+BUG-2003,Critical,Payment,Refund process fails intermittently,"Some refund attempts timeout or fail to process, especially for international transactions.",L1,Open,Finance,2023-08-10,Omar Ali,2023-08-11,B
+BUG-2004,Low,UI,Hover tooltip overlaps buttons,"On the dashboard, tooltips obscure nearby buttons making them hard to click.",L4,Open,UI,2023-07-25,Priya Verma,2023-07-26,B
+BUG-2005,Planning,Analytics,Add CSV export for usage stats,Users want the ability to export their usage analytics data in CSV format.,L5,Planned,Feature Request,2023-06-15,Quentin Huang,2023-06-16,B
+BUG-2006,Medium,Notifications,Push notifications sent twice,Mobile app notifications for events are being sent twice to some users.,L2,In Progress,Communication,2023-09-02,Rita Gomez,2023-09-03,B
