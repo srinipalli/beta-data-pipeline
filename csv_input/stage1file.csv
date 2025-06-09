@@ -1,11 +1,11 @@
 ticket_id,severity,module,title,description,priority,status,category,reported_date,assigned_to,assigned_date,sourcename
-TCK-1001,High,Authentication,Login fails with correct credentials,Multiple users are unable to log in even with valid usernames and passwords.,L1,Open,Authentication,2023-10-01,Alice Johnson,2023-10-02,A
-TCK-1002,Medium,Payment,Delayed payment confirmation,Users report a delay of over 10 minutes in payment confirmation after checkout.,L2,In Progress,Payment,2023-10-05,Bob Smith,2023-10-06,A
-TCK-1003,Critical,Backend,Data loss during server crash,System crash caused the loss of customer order records from last 24 hours.,L1,Open,Infrastructure,2023-09-15,Clara Singh,2023-09-15,A
-TCK-1004,Low,UI,Misaligned buttons on dashboard,UI buttons on the admin dashboard appear misaligned on Safari browser.,L4,Open,UI,2023-09-20,David Lee,2023-09-22,A
-TCK-1005,Medium,Notifications,Email notifications not triggered,Some transactional emails are not being sent after order placement.,L3,In Progress,Communication,2023-08-12,Ella Kim,2023-08-13,A
-TCK-1006,High,Search,Search results incomplete,Several relevant products are missing from search results for common queries.,L2,Open,Search,2023-10-10,Frank Wright,2023-10-11,A
-TCK-1007,Planning,Reports,Add export to Excel feature,Users have requested an option to export reports in Excel format.,L5,Planned,Feature Request,2023-07-01,Grace Patel,2023-07-02,A
-TCK-1008,Low,Authentication,Forgot password link UI broken,The 'Forgot Password?' link doesn't appear properly on mobile devices.,L4,Open,UI,2023-10-04,Helen Zhou,2023-10-05,A
-TCK-1009,Medium,API,API returns 500 error for invalid payload,"Instead of a 400 Bad Request, the API returns a 500 error when payload is malformed.",L3,In Progress,Backend,2023-09-25,Ian Thomas,2023-09-26,A
-TCK-1010,Critical,Payment,Double payment charged to users,Some users have been charged twice for the same order due to a retry bug.,L1,Open,Payment,2023-09-30,Julia Fernandez,2023-10-01,A
+TCK-1001,High,Authentication,Login fails with correct credentials,Multiple users are unable to log in even with valid usernames and passwords.,L1,Open,Authentication,10/01/2023,Alice Johnson,10/02/2023,A
+TCK-1002,Medium,Payment,Delayed payment confirmation,Users report a delay of over 10 minutes in payment confirmation after checkout.,L2,In Progress,Payment,10/05/2023,Bob Smith,10/06/2023,A
+TCK-1003,Critical,Backend,Data loss during server crash,System crash caused the loss of customer order records from last 24 hours.,L1,Open,Infrastructure,09/15/2023,Clara Singh,09/15/2023,A
+TCK-1004,Low,UI,Misaligned buttons on dashboard,UI buttons on the admin dashboard appear misaligned on Safari browser.,L4,Open,UI,09/20/2023,David Lee,09/22/2023,A
+TCK-1005,Medium,Notifications,Email notifications not triggered,Some transactional emails are not being sent after order placement.,L3,In Progress,Communication,08/12/2023,Ella Kim,08/13/2023,A
+TCK-1006,High,Search,Search results incomplete,Several relevant products are missing from search results for common queries.,L2,Open,Search,10/10/2023,Frank Wright,10/11/2023,A
+TCK-1007,Planning,Reports,Add export to Excel feature,Users have requested an option to export reports in Excel format.,L5,Planned,Feature Request,07/01/2023,Grace Patel,07/02/2023,A
+TCK-1008,Low,Authentication,Forgot password link UI broken,The 'Forgot Password?' link doesn't appear properly on mobile devices.,L4,Open,UI,10/04/2023,Helen Zhou,10/05/2023,A
+TCK-1009,Medium,API,API returns 500 error for invalid payload,"Instead of a 400 Bad Request, the API returns a 500 error when payload is malformed.",L3,In Progress,Backend,09/25/2023,Ian Thomas,09/26/2023,A
+TCK-1010,Critical,Payment,Double payment charged to users,Some users have been charged twice for the same order due to a retry bug.,L1,Open,Payment,09/30/2023,Julia Fernandez,10/01/2023,A
