@@ -64,7 +64,7 @@ def try_validate_schema(df, schema_class, date_formats : dict = None):
             schema_class(**row)
         return True
     except ValidationError as ve:
-        print(ve)
+        #print(ve)
         return False
 
 def classify_and_save(csv_path, out_dir="csv_input/"):

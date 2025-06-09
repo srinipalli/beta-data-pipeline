@@ -1,9 +1,9 @@
 ticketid,triage_level,modulename,bug_title,bug_desc,priority,status,category,datereported,assignee,assignee_date,src,dummy
-5001,Critical,Login,Multiple failed attempts lock out valid users,"After 3 failed logins, even valid users are locked out without reset options.",L1,Open,Authentication,2023-09-01,Aarav Mehta,2023-09-02,E,x
-5002,High,Cart,Cart items disappear after reload,"When refreshing the cart page, previously added items vanish intermittently.",L2,In Progress,UX,2023-08-12,Bella Singh,2023-08-13,E,x
-5003,Medium,Email,Welcome emails not sent to Gmail addresses,New Gmail users are not receiving onboarding emails due to SPF/DKIM failure.,L3,Open,Communication,2023-10-05,Carlos Ruiz,2023-10-06,E,x
-5004,Low,Reports,Report names overflow sidebar,"In the analytics panel, long report titles overflow and overlap with the UI.",L5,Closed,UI,2023-07-10,Dana Iqbal,2023-07-11,E,x
-5005,Medium,Admin,Admin panel crashes on bulk user import,Uploading large CSVs with over 500 users causes memory crash in admin panel.,L3,Open,Admin Tools,2023-06-20,Elena Novak,2023-06-21,E,x
-5006,Planning,Mobile,Dark mode not supported,Users on iOS and Android request dark mode support for accessibility.,L4,Planned,Feature Request,2023-05-30,Fatima Khan,2023-05-31,E,x
-5007,Critical,Database,Data loss after rollback,Transactional rollback sometimes leaves tables partially updated or corrupted.,L1,In Progress,Data Integrity,2023-09-15,George Tan,2023-09-16,E,x
-5008,High,Scheduler,Recurring tasks not triggering on Mondays,Weekly scheduled jobs skip execution on Mondays due to a timezone mismatch.,L2,Open,Scheduler,2023-08-01,Hiroshi Yamamoto,2023-08-02,E,x
+5001,Critical,Login,Multiple failed attempts lock out valid users,"After 3 failed logins, even valid users are locked out without reset options.",L1,Open,Authentication,09/01/2023,Aarav Mehta,09/02/2023,E,x
+5002,High,Cart,Cart items disappear after reload,"When refreshing the cart page, previously added items vanish intermittently.",L2,In Progress,UX,08/12/2023,Bella Singh,08/13/2023,E,x
+5003,Medium,Email,Welcome emails not sent to Gmail addresses,New Gmail users are not receiving onboarding emails due to SPF/DKIM failure.,L3,Open,Communication,10/05/2023,Carlos Ruiz,10/06/2023,E,x
+5004,Low,Reports,Report names overflow sidebar,"In the analytics panel, long report titles overflow and overlap with the UI.",L5,Closed,UI,07/10/2023,Dana Iqbal,07/11/2023,E,x
+5005,Medium,Admin,Admin panel crashes on bulk user import,Uploading large CSVs with over 500 users causes memory crash in admin panel.,L3,Open,Admin Tools,06/20/2023,Elena Novak,06/21/2023,E,x
+5006,Planning,Mobile,Dark mode not supported,Users on iOS and Android request dark mode support for accessibility.,L4,Planned,Feature Request,05/30/2023,Fatima Khan,05/31/2023,E,x
+5007,Critical,Database,Data loss after rollback,Transactional rollback sometimes leaves tables partially updated or corrupted.,L1,In Progress,Data Integrity,09/15/2023,George Tan,09/16/2023,E,x
+5008,High,Scheduler,Recurring tasks not triggering on Mondays,Weekly scheduled jobs skip execution on Mondays due to a timezone mismatch.,L2,Open,Scheduler,08/01/2023,Hiroshi Yamamoto,08/02/2023,E,x
