@@ -59,3 +59,14 @@ CREATE TABLE IF NOT EXISTS main_table (
     assigned_date DATE,
     source TEXT
 );
+
+
+CREATE TABLE IF NOT EXISTS processed(
+    ticket_id VARCHAR(20) PRIMARY KEY,
+    summary TEXT,
+    priority TEXT,
+    category TEXT,
+    sub_category TEXT,
+    assigned_to TEXT,
+    reason TEXT
+);

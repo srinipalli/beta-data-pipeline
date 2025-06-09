@@ -1,0 +1,61 @@
+employee_ID,employee_name,category,triage,availability
+EMP001,Alec Donovan,Core Services and Backend Services,L1,Y
+EMP002,Nina Caldwell,Core Services and Backend Services,L1,Y
+EMP003,Dorian Vega,Core Services and Backend Services,L2,Y
+EMP004,Elena Cross,Core Services and Backend Services,L2,Y
+EMP005,Lucian Ford,Core Services and Backend Services,L3,Y
+EMP006,Ivy Monroe,Core Services and Backend Services,L3,Y
+EMP007,Kai Rivers,Core Services and Backend Services,L3,Y
+EMP008,Silas Hayes,Core Services and Backend Services,L4,Y
+EMP009,Akash Vachagan,Core Services and Backend Services,L4,Y
+EMP010,Rowan Ellis,Core Services and Backend Services,L4,Y
+EMP011,Jasper Wolfe,Core Services and Backend Services,L5,Y
+EMP012,Aria Whitmore,Core Services and Backend Services,L5,Y
+EMP013,Tobias Lane,Core Services and Backend Services,L5,Y
+EMP014,Lyra Bennett,Core Services and Backend Services,L5,Y
+EMP015,Cyrus Quinn,Core Services and Backend Services,L5,Y
+EMP016,Miles Thatcher,Backend Development and UX,L1,Y
+EMP017,Pranav Anandan,Backend Development and UX,L1,Y
+EMP018,Callum Rhodes,Backend Development and UX,L2,Y
+EMP019,Jade Emerson,Backend Development and UX,L2,Y
+EMP020,Reid Callahan,Backend Development and UX,L3,Y
+EMP021,Zara Lennox,Backend Development and UX,L3,Y
+EMP022,Theo Maddox,Backend Development and UX,L3,Y
+EMP023,Esme Caldwell,Backend Development and UX,L4,Y
+EMP024,Finn Carrington,Backend Development and UX,L4,Y
+EMP025,Talia Granger,Backend Development and UX,L4,Y
+EMP026,Ronan Blackwood,Backend Development and UX,L5,Y
+EMP027,Isla Hartley,Backend Development and UX,L5,Y
+EMP028,Damon Whitaker,Backend Development and UX,L5,Y
+EMP029,Nova Wren,Backend Development and UX,L5,Y
+EMP030,Quentin Shore,Backend Development and UX,L5,Y
+EMP031,Elias Vaughn,Platform and Infrastructure,L1,Y
+EMP032,Lena Whitfield,Platform and Infrastructure,L1,Y
+EMP033,Griffin Tate,Platform and Infrastructure,L2,Y
+EMP034,Vivian Clarke,Platform and Infrastructure,L2,Y
+EMP035,Dexter Hale,Platform and Infrastructure,L3,Y
+EMP036,Noelle Prescott,Platform and Infrastructure,L3,Y
+EMP037,Jace Harlow,Platform and Infrastructure,L3,Y
+EMP038,Astrid Mercer,Platform and Infrastructure,L4,Y
+EMP039,Nikolai Brooks,Platform and Infrastructure,L4,Y
+EMP040,Tess Winslow,Platform and Infrastructure,L4,Y
+EMP041,Adarsh Siva M B,Platform and Infrastructure,L5,Y
+EMP042,Camille Foster,Platform and Infrastructure,L5,Y
+EMP043,Orion Blake,Platform and Infrastructure,L5,Y
+EMP044,Delilah Knox,Platform and Infrastructure,L5,Y
+EMP045,Emmett Sloane,Platform and Infrastructure,L5,Y
+EMP046,Caleb Stroud,Data and System Management,L1,Y
+EMP047,Amara Keane,Data and System Management,L1,Y
+EMP048,Damien Pike,Data and System Management,L2,Y
+EMP049,Selene Voss,Data and System Management,L2,Y
+EMP050,Logan Everly,Data and System Management,L3,Y
+EMP051,Freya Linton,Data and System Management,L3,Y
+EMP052,Varshikan K,Data and System Management,L3,Y
+EMP053,Bianca Sterling,Data and System Management,L4,Y
+EMP054,Corbin Nash,Data and System Management,L4,Y
+EMP055,Alina Greer,Data and System Management,L4,Y
+EMP056,Xavier Locke,Data and System Management,L5,Y
+EMP057,Mirabel Joyce,Data and System Management,L5,Y
+EMP058,Julian West,Data and System Management,L5,Y
+EMP059,Seraphina Doyle,Data and System Management,L5,Y
+EMP060,Wesley Trent,Data and System Management,L5,Y
