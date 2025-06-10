@@ -68,5 +68,5 @@ CREATE TABLE IF NOT EXISTS processed(
     category TEXT,
     sub_category TEXT,
     assigned_to TEXT,
-    reason TEXT
+    solution TEXT
 );
