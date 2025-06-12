@@ -66,7 +66,11 @@ CREATE TABLE IF NOT EXISTS processed(
     summary TEXT,
     priority TEXT,
     category TEXT,
-    sub_category TEXT,
-    assigned_to TEXT,
     solution TEXT
+);
+
+CREATE TABLE IF NOT EXISTS assign(
+    ticket_id VARCHAR(20) PRIMARY KEY,
+    assigned_id TEXT,
+    assigned_date DATE 
 );

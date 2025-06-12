@@ -5,7 +5,7 @@ INTO TABLE stage1
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS
+IGNORE 0 ROWS
 (ticket_id, severity, module, title, description, priority, status, category, @reported_date, assigned_to, @assigned_date, sourcename)
 SET
     reported_date = STR_TO_DATE(@reported_date, '%m/%d/%Y'),
@@ -16,7 +16,7 @@ INTO TABLE stage2
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS
+IGNORE 0 ROWS
 (bug_id, triage, module, title, description, severity, status, category, @reported_date, assigned_to, @assigned_date, source_name)
 SET
     reported_date = STR_TO_DATE(@reported_date, '%m/%d/%Y'),
@@ -27,7 +27,7 @@ INTO TABLE stage3
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS
+IGNORE 0 ROWS
 (ticketid, triage_level, modulename, bug_title, bug_desc, priority, status, category, @datereported, assignee, @assignee_date, src)
 SET
     datereported = STR_TO_DATE(@datereported, '%d/%m/%Y'),

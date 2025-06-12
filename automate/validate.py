@@ -74,7 +74,7 @@ def classify_and_save(csv_path, out_dir="csv_input/"):
         "reported_date": "%m/%d/%Y",
         "assigned_date": "%m/%d/%Y"
     }):
-        df.to_csv(f'{out_dir}stage1file.csv', index=False)
+        df.to_csv(f'{out_dir}stage1file.csv', index=False, mode='a',header=False)
         print(f"{csv_path} → Stage 1 ✅")
         return "stage1"
 
@@ -82,7 +82,7 @@ def classify_and_save(csv_path, out_dir="csv_input/"):
         "reported_date": "%m/%d/%Y",
         "assigned_date": "%m/%d/%Y"
     }):
-        df.to_csv(f'{out_dir}stage2file.csv', index=False)
+        df.to_csv(f'{out_dir}stage2file.csv', index=False, mode='a', header=False)
         print(f"{csv_path} → Stage 2 ✅")
         return "stage2"
 
@@ -90,7 +90,7 @@ def classify_and_save(csv_path, out_dir="csv_input/"):
         "datereported": "%d/%m/%Y",
         "assignee_date": "%d/%m/%Y"
     }):
-        df.to_csv(f'{out_dir}stage3file.csv', index=False)
+        df.to_csv(f'{out_dir}stage3file.csv', index=False, mode='a', header=False)
         print(f"{csv_path} → Stage 3 ✅")
         return "stage3"
 

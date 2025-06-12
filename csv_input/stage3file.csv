@@ -1,4 +1,3 @@
-ticketid,triage_level,modulename,bug_title,bug_desc,priority,status,category,datereported,assignee,assignee_date,src
 3001,Critical,Login,Multiple failed attempts lock out valid users,"After 3 failed logins, even valid users are locked out without reset options.",L1,Open,Authentication,01/09/2023,Aarav Mehta,02/09/2023,C
 3002,High,Cart,Cart items disappear after reload,"When refreshing the cart page, previously added items vanish intermittently.",L2,In Progress,UX,12/08/2023,Bella Singh,13/08/2023,C
 3003,Medium,Email,Welcome emails not sent to Gmail addresses,New Gmail users are not receiving onboarding emails due to SPF/DKIM failure.,L3,Open,Communication,05/10/2023,Carlos Ruiz,06/10/2023,C
