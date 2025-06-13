@@ -71,24 +71,24 @@ def classify_and_save(csv_path, out_dir="csv_input/"):
     df = pd.read_csv(out_dir + csv_path)
 
     if try_validate_schema(df, Stage1Ticket, {
-        "reported_date": "%m/%d/%Y",
-        "assigned_date": "%m/%d/%Y"
+        "reported_date": "%Y-%m-%d",
+        "assigned_date": "%Y-%m-%d"
     }):
         df.to_csv(f'{out_dir}stage1file.csv', index=False, mode='a',header=False)
         print(f"{csv_path} → Stage 1 ✅")
         return "stage1"
 
     elif try_validate_schema(df, Stage2Ticket, {
-        "reported_date": "%m/%d/%Y",
-        "assigned_date": "%m/%d/%Y"
+        "reported_date": "%d-%m-%Y",
+        "assigned_date": "%d-%m-%Y"
     }):
         df.to_csv(f'{out_dir}stage2file.csv', index=False, mode='a', header=False)
         print(f"{csv_path} → Stage 2 ✅")
         return "stage2"
 
     elif try_validate_schema(df, Stage3Ticket, {
-        "datereported": "%d/%m/%Y",
-        "assignee_date": "%d/%m/%Y"
+        "datereported": "%d-%m-%Y",
+        "assignee_date": "%d-%m-%Y"
     }):
         df.to_csv(f'{out_dir}stage3file.csv', index=False, mode='a', header=False)
         print(f"{csv_path} → Stage 3 ✅")
@@ -99,7 +99,7 @@ def classify_and_save(csv_path, out_dir="csv_input/"):
         return None
 
 csv_files = [
-    "fileA.csv", "fileB.csv", "fileC.csv", "fileD.csv", "fileE.csv"
+    "hfilea.csv", "hfileb.csv", "hfilec.csv", "hfiled.csv", "hfilee.csv"
 ]
 
 for file in csv_files:
