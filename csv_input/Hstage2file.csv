@@ -1,0 +1,25 @@
+bug_id,triage,module,title,description,severity,status,category,reported_date,assigned_to,assigned_date,source_name
+BUG-2001,High,Authentication,OAuth token not refreshing,"Access tokens are not getting refreshed automatically after expiry, causing user logouts.",L1,Open,Security,10/01/2023,Liam Carter,10/02/2023,B
+BUG-2002,Medium,Search,Filter results ignore date range,"When users select a date filter in search, results still include entries outside the range.",L2,In Progress,Search,09/18/2023,Nina Kapoor,09/19/2023,B
+BUG-2003,Critical,Payment,Refund process fails intermittently,"Some refund attempts timeout or fail to process, especially for international transactions.",L1,Open,Finance,08/10/2023,Omar Ali,08/11/2023,B
+BUG-2004,Low,UI,Hover tooltip overlaps buttons,"On the dashboard, tooltips obscure nearby buttons making them hard to click.",L4,Open,UI,07/25/2023,Priya Verma,07/26/2023,B
+BUG-2005,Planning,Analytics,Add CSV export for usage stats,Users want the ability to export their usage analytics data in CSV format.,L5,Planned,Feature Request,06/15/2023,Quentin Huang,06/16/2023,B
+BUG-2006,Medium,Notifications,Push notifications sent twice,Mobile app notifications for events are being sent twice to some users.,L2,In Progress,Communication,09/02/2023,Rita Gomez,09/03/2023,B
+BUG-4001,High,Authentication,OAuth token not refreshing,"Access tokens are not getting refreshed automatically after expiry, causing user logouts.",L1,Open,Security,10/01/2023,Liam Carter,10/02/2023,D
+BUG-4002,Medium,Search,Filter results ignore date range,"When users select a date filter in search, results still include entries outside the range.",L2,In Progress,Search,09/18/2023,Nina Kapoor,09/19/2023,D
+BUG-4003,Critical,Payment,Refund process fails intermittently,"Some refund attempts timeout or fail to process, especially for international transactions.",L1,Open,Finance,08/10/2023,Omar Ali,08/11/2023,D
+BUG-4004,Low,UI,Hover tooltip overlaps buttons,"On the dashboard, tooltips obscure nearby buttons making them hard to click.",L4,Open,UI,07/25/2023,Priya Verma,07/26/2023,D
+BUG-4005,Planning,Analytics,Add CSV export for usage stats,Users want the ability to export their usage analytics data in CSV format.,L5,Planned,Feature Request,06/15/2023,Quentin Huang,06/16/2023,D
+BUG-4006,Medium,Notifications,Push notifications sent twice,Mobile app notifications for events are being sent twice to some users.,L2,In Progress,Communication,09/02/2023,Rita Gomez,09/03/2023,D
+BUG-2001,High,Authentication,OAuth token not refreshing,"Access tokens are not getting refreshed automatically after expiry, causing user logouts.",L1,Open,Security,10/01/2023,Liam Carter,10/02/2023,B
+BUG-2002,Medium,Search,Filter results ignore date range,"When users select a date filter in search, results still include entries outside the range.",L2,In Progress,Search,09/18/2023,Nina Kapoor,09/19/2023,B
+BUG-2003,Critical,Payment,Refund process fails intermittently,"Some refund attempts timeout or fail to process, especially for international transactions.",L1,Open,Finance,08/10/2023,Omar Ali,08/11/2023,B
+BUG-2004,Low,UI,Hover tooltip overlaps buttons,"On the dashboard, tooltips obscure nearby buttons making them hard to click.",L4,Open,UI,07/25/2023,Priya Verma,07/26/2023,B
+BUG-2005,Planning,Analytics,Add CSV export for usage stats,Users want the ability to export their usage analytics data in CSV format.,L5,Planned,Feature Request,06/15/2023,Quentin Huang,06/16/2023,B
+BUG-2006,Medium,Notifications,Push notifications sent twice,Mobile app notifications for events are being sent twice to some users.,L2,In Progress,Communication,09/02/2023,Rita Gomez,09/03/2023,B
+BUG-4001,High,Authentication,OAuth token not refreshing,"Access tokens are not getting refreshed automatically after expiry, causing user logouts.",L1,Open,Security,10/01/2023,Liam Carter,10/02/2023,D
+BUG-4002,Medium,Search,Filter results ignore date range,"When users select a date filter in search, results still include entries outside the range.",L2,In Progress,Search,09/18/2023,Nina Kapoor,09/19/2023,D
+BUG-4003,Critical,Payment,Refund process fails intermittently,"Some refund attempts timeout or fail to process, especially for international transactions.",L1,Open,Finance,08/10/2023,Omar Ali,08/11/2023,D
+BUG-4004,Low,UI,Hover tooltip overlaps buttons,"On the dashboard, tooltips obscure nearby buttons making them hard to click.",L4,Open,UI,07/25/2023,Priya Verma,07/26/2023,D
+BUG-4005,Planning,Analytics,Add CSV export for usage stats,Users want the ability to export their usage analytics data in CSV format.,L5,Planned,Feature Request,06/15/2023,Quentin Huang,06/16/2023,D
+BUG-4006,Medium,Notifications,Push notifications sent twice,Mobile app notifications for events are being sent twice to some users.,L2,In Progress,Communication,09/02/2023,Rita Gomez,09/03/2023,D

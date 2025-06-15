@@ -1,33 +1,33 @@
-USE ticket;
+USE hrmticket;
 
-LOAD DATA LOCAL INFILE '/Users/mbas/Desktop/Tsummarizze/DataPipeline/csv_input/Hstage1file.csv'
+LOAD DATA LOCAL INFILE '/Users/mbas/Desktop/Tsummarizze/DataPipeline/csv_input/stage1file.csv'
 INTO TABLE stage1
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
-IGNORE 0 ROWS
+IGNORE 1 ROWS
 (ticket_id, severity, module, title, description, priority, status, category, @reported_date, assigned_to, @assigned_date, sourcename)
 SET
     reported_date = STR_TO_DATE(@reported_date, '%Y-%m-%d'),
     assigned_date = STR_TO_DATE(@assigned_date, '%Y-%m-%d');
 
-LOAD DATA LOCAL INFILE '/Users/mbas/Desktop/Tsummarizze/DataPipeline/csv_input/Hstage2file.csv'
+LOAD DATA LOCAL INFILE '/Users/mbas/Desktop/Tsummarizze/DataPipeline/csv_input/stage2file.csv'
 INTO TABLE stage2
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
-IGNORE 0 ROWS
+IGNORE 1 ROWS
 (bug_id, triage, module, title, description, severity, status, category, @reported_date, assigned_to, @assigned_date, source_name)
 SET
     reported_date = STR_TO_DATE(@reported_date, '%d-%m-%Y'),
     assigned_date = STR_TO_DATE(@assigned_date, '%d-%m-%Y');
 
-LOAD DATA LOCAL INFILE '/Users/mbas/Desktop/Tsummarizze/DataPipeline/csv_input/Hstage3file.csv'
+LOAD DATA LOCAL INFILE '/Users/mbas/Desktop/Tsummarizze/DataPipeline/csv_input/stage3file.csv'
 INTO TABLE stage3
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
-IGNORE 0 ROWS
+IGNORE 1 ROWS
 (ticketid, triage_level, modulename, bug_title, bug_desc, priority, status, category, @datereported, assignee, @assignee_date, src)
 SET
     datereported = STR_TO_DATE(@datereported, '%d-%m-%Y'),
@@ -95,3 +95,5 @@ SELECT
     assignee_date as assigned_date,
     src as source
 FROM stage3;
+
+UPDATE main_table SET ticket_id = "UNKNOWN" where ticket_id = '0';

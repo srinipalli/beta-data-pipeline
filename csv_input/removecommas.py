@@ -2,11 +2,7 @@ import pandas as pd
 
 # Mapping of filenames to the name of their description field
 files_description_column_map = {
-    "csv_input/hfilea.csv": "description",
-    "csv_input/hfileb.csv": "description",
-    "csv_input/hfilec.csv": "bug_desc",
-    "csv_input/hfiled.csv": "description",
-    "csv_input/hfilee.csv": "description",
+    "csv_input/HRMtriage2.csv": "description",
 }
 
 # Clean function to remove quotes and commas
