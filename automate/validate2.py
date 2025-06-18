@@ -4,6 +4,7 @@ from datetime import date
 import pandas as pd
 import os
 from datetime import datetime
+import csv
 class Stage1Ticket(BaseModel):
     ticket_id: str
     severity: str

@@ -9,10 +9,9 @@ set +o allexport
 MYSQL=${MYSQL_CLIENT_PATH:-mysql}
 
 # Run the SQL file
-$MYSQL --local-infile=1 -u "$MYSQL_USER" -p"$MYSQL_PASSWORD" "$MYSQL_DATABASE" < sqlfinaladded/merge1.sql
+$MYSQL --local-infile=1 -u "$MYSQL_USER" -p"$MYSQL_PASSWORD" "$MYSQL_DATABASE" < sqlfilesadded/createemployee.sql
 if [ $? -eq 0 ]; then
-    echo "All records merged successfully :D"
+    echo "employee table created successfully :)"
 else
-    echo "Failed to merge records :C"
+    echo "Failed to create employee table :("
 fi
-
