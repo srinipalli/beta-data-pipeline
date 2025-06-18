@@ -95,3 +95,10 @@ SELECT
     assignee_date as assigned_date,
     src as source
 FROM stage3;
+
+INSERT IGNORE INTO metrics(
+    ticket_id
+)
+SELECT
+    ticket_id as ticket_id
+FROM main_table;
